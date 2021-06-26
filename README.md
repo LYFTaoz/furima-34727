@@ -18,9 +18,9 @@
 ### Association
 
 - has_many :items
-- has_many :buy
+- has_many :buys
 
-## buyテーブル
+## buysテーブル
 
 | Column       | Type       | Options                        |
 | -------------| ---------- | ------------------------------ |
@@ -32,10 +32,10 @@
 
 - belongs_to :user
 - belongs_to :items
-- has_one :Delivery_destination
+- has_one :delivery_destination
 
 
-## Delivery_destination
+## delivery_destinations
 
 | Column           | Type       | Options                        |
 | ---------------- | ---------- | ------------------------------ |
