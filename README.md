@@ -31,7 +31,7 @@
 ### Association
 
 - belongs_to :user
-- belongs_to :items
+- belongs_to :item
 - has_one :delivery_destination
 
 
@@ -41,7 +41,7 @@
 | ---------------- | ---------- | ------------------------------ |
 | buy              | references | null: false, foreign_key: true |
 | post_code        | string     | null: false                    |
-| prefecture_id    | integer    | null: false                    |
+| ship_from_id     | integer    | null: false                    |
 | city             | string     | null: false                    |
 | address          | string     | null: false                    |
 | building_name    | string     |                                |
